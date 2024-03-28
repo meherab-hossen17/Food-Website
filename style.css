@@ -561,6 +561,7 @@ section .main_btn:hover i {
     justify-content: center;
     color: #000;
     font-size: 55px;
+    top: 15px;
 }
 
 .order  h1 span {
@@ -791,12 +792,20 @@ footer .end {
     align-items: center;
     justify-content: center;
     padding: 15px;
+    font-size: 20px;
 }
 
 footer .end  span {
     color: #fac031;
     margin-left: 15px;
+    font-size: 20px;
 }
+
+footer .end  span i {
+    font-size: 20px;
+}
+
+
 
 ::-webkit-scrollbar {
     width: 13px;
